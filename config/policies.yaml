@@ -1,0 +1,37 @@
+# budget:
+#   currency: PKR
+#   cap: 800000
+
+# discount:
+#   max_pct: 20
+#   margin_floor_pct: 18
+
+# rate_limits:
+#   notification_api: 5000
+
+# notification_window:
+#   start: "09:00"
+#   end: "23:59"
+
+# privacy:
+#   respect_optouts: true
+# Bizpulse Corporate Safety and Execution Thresholds
+
+# ///////////////////
+budget:
+  currency: PKR
+  cap: 800000
+
+discount:
+  max_pct: 20
+  margin_floor_pct: 18
+
+rate_limits:
+  notification_api: 5000
+
+notification_window:
+  start: "09:00"
+  end: "23:59"
+
+privacy:
+  respect_optouts: true

@@ -1,0 +1,1442 @@
+[
+  {
+    "date": "2026-04-17",
+    "region": "Faisalabad",
+    "reach": 54994,
+    "sessions": 5499,
+    "conversion_rate": 0.0283,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-17",
+    "region": "Islamabad",
+    "reach": 77829,
+    "sessions": 7782,
+    "conversion_rate": 0.0144,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-04-17",
+    "region": "Karachi",
+    "reach": 76604,
+    "sessions": 7660,
+    "conversion_rate": 0.0292,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-17",
+    "region": "Lahore",
+    "reach": 74923,
+    "sessions": 7492,
+    "conversion_rate": 0.0299,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-17",
+    "region": "Multan",
+    "reach": 59808,
+    "sessions": 5980,
+    "conversion_rate": 0.0179,
+    "sentiment_score": 0.75
+  },
+  {
+    "date": "2026-04-17",
+    "region": "Rawalpindi",
+    "reach": 82683,
+    "sessions": 8268,
+    "conversion_rate": 0.0141,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-18",
+    "region": "Faisalabad",
+    "reach": 71156,
+    "sessions": 7115,
+    "conversion_rate": 0.0267,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-18",
+    "region": "Islamabad",
+    "reach": 83617,
+    "sessions": 8361,
+    "conversion_rate": 0.0191,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-04-18",
+    "region": "Karachi",
+    "reach": 86786,
+    "sessions": 8678,
+    "conversion_rate": 0.0212,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-18",
+    "region": "Lahore",
+    "reach": 61770,
+    "sessions": 6177,
+    "conversion_rate": 0.0175,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-04-18",
+    "region": "Multan",
+    "reach": 61244,
+    "sessions": 6124,
+    "conversion_rate": 0.026,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-04-18",
+    "region": "Rawalpindi",
+    "reach": 74953,
+    "sessions": 7495,
+    "conversion_rate": 0.0232,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-04-19",
+    "region": "Faisalabad",
+    "reach": 61011,
+    "sessions": 6101,
+    "conversion_rate": 0.0139,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-04-19",
+    "region": "Islamabad",
+    "reach": 57766,
+    "sessions": 5776,
+    "conversion_rate": 0.026,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-04-19",
+    "region": "Karachi",
+    "reach": 75065,
+    "sessions": 7506,
+    "conversion_rate": 0.0244,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-04-19",
+    "region": "Lahore",
+    "reach": 72536,
+    "sessions": 7253,
+    "conversion_rate": 0.0271,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-04-19",
+    "region": "Multan",
+    "reach": 90482,
+    "sessions": 9048,
+    "conversion_rate": 0.0181,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-04-19",
+    "region": "Rawalpindi",
+    "reach": 95922,
+    "sessions": 9592,
+    "conversion_rate": 0.0117,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-04-20",
+    "region": "Faisalabad",
+    "reach": 69858,
+    "sessions": 6985,
+    "conversion_rate": 0.0217,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-20",
+    "region": "Islamabad",
+    "reach": 58319,
+    "sessions": 5831,
+    "conversion_rate": 0.0225,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-04-20",
+    "region": "Karachi",
+    "reach": 64751,
+    "sessions": 6475,
+    "conversion_rate": 0.0218,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-20",
+    "region": "Lahore",
+    "reach": 64241,
+    "sessions": 6424,
+    "conversion_rate": 0.0255,
+    "sentiment_score": 0.75
+  },
+  {
+    "date": "2026-04-20",
+    "region": "Multan",
+    "reach": 57721,
+    "sessions": 5772,
+    "conversion_rate": 0.0295,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-20",
+    "region": "Rawalpindi",
+    "reach": 97157,
+    "sessions": 9715,
+    "conversion_rate": 0.0197,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-21",
+    "region": "Faisalabad",
+    "reach": 70642,
+    "sessions": 7064,
+    "conversion_rate": 0.0197,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-21",
+    "region": "Islamabad",
+    "reach": 62199,
+    "sessions": 6219,
+    "conversion_rate": 0.0227,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-04-21",
+    "region": "Karachi",
+    "reach": 67754,
+    "sessions": 6775,
+    "conversion_rate": 0.0297,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-21",
+    "region": "Lahore",
+    "reach": 62163,
+    "sessions": 6216,
+    "conversion_rate": 0.0237,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-04-21",
+    "region": "Multan",
+    "reach": 76831,
+    "sessions": 7683,
+    "conversion_rate": 0.0155,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-04-21",
+    "region": "Rawalpindi",
+    "reach": 80607,
+    "sessions": 8060,
+    "conversion_rate": 0.0244,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-04-22",
+    "region": "Faisalabad",
+    "reach": 67722,
+    "sessions": 6772,
+    "conversion_rate": 0.028,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-04-22",
+    "region": "Islamabad",
+    "reach": 54250,
+    "sessions": 5425,
+    "conversion_rate": 0.0227,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-04-22",
+    "region": "Karachi",
+    "reach": 77166,
+    "sessions": 7716,
+    "conversion_rate": 0.0184,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-04-22",
+    "region": "Lahore",
+    "reach": 87219,
+    "sessions": 8721,
+    "conversion_rate": 0.0133,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-22",
+    "region": "Multan",
+    "reach": 68054,
+    "sessions": 6805,
+    "conversion_rate": 0.0254,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-22",
+    "region": "Rawalpindi",
+    "reach": 74390,
+    "sessions": 7439,
+    "conversion_rate": 0.0244,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-04-23",
+    "region": "Faisalabad",
+    "reach": 77618,
+    "sessions": 7761,
+    "conversion_rate": 0.0291,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-23",
+    "region": "Islamabad",
+    "reach": 73160,
+    "sessions": 7316,
+    "conversion_rate": 0.0106,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-23",
+    "region": "Karachi",
+    "reach": 52704,
+    "sessions": 5270,
+    "conversion_rate": 0.0269,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-23",
+    "region": "Lahore",
+    "reach": 87491,
+    "sessions": 8749,
+    "conversion_rate": 0.0254,
+    "sentiment_score": 0.75
+  },
+  {
+    "date": "2026-04-23",
+    "region": "Multan",
+    "reach": 65581,
+    "sessions": 6558,
+    "conversion_rate": 0.0183,
+    "sentiment_score": 0.75
+  },
+  {
+    "date": "2026-04-23",
+    "region": "Rawalpindi",
+    "reach": 68891,
+    "sessions": 6889,
+    "conversion_rate": 0.0149,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-04-24",
+    "region": "Faisalabad",
+    "reach": 82357,
+    "sessions": 8235,
+    "conversion_rate": 0.0294,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-04-24",
+    "region": "Islamabad",
+    "reach": 74270,
+    "sessions": 7427,
+    "conversion_rate": 0.0118,
+    "sentiment_score": 0.75
+  },
+  {
+    "date": "2026-04-24",
+    "region": "Karachi",
+    "reach": 85845,
+    "sessions": 8584,
+    "conversion_rate": 0.0238,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-04-24",
+    "region": "Lahore",
+    "reach": 71145,
+    "sessions": 7114,
+    "conversion_rate": 0.0275,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-04-24",
+    "region": "Multan",
+    "reach": 62200,
+    "sessions": 6220,
+    "conversion_rate": 0.0238,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-04-24",
+    "region": "Rawalpindi",
+    "reach": 66405,
+    "sessions": 6640,
+    "conversion_rate": 0.0229,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-04-25",
+    "region": "Faisalabad",
+    "reach": 75681,
+    "sessions": 7568,
+    "conversion_rate": 0.0108,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-04-25",
+    "region": "Islamabad",
+    "reach": 54747,
+    "sessions": 5474,
+    "conversion_rate": 0.0211,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-04-25",
+    "region": "Karachi",
+    "reach": 66232,
+    "sessions": 6623,
+    "conversion_rate": 0.0239,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-25",
+    "region": "Lahore",
+    "reach": 65791,
+    "sessions": 6579,
+    "conversion_rate": 0.0184,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-04-25",
+    "region": "Multan",
+    "reach": 85439,
+    "sessions": 8543,
+    "conversion_rate": 0.0269,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-25",
+    "region": "Rawalpindi",
+    "reach": 50067,
+    "sessions": 5006,
+    "conversion_rate": 0.0219,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-26",
+    "region": "Faisalabad",
+    "reach": 81004,
+    "sessions": 8100,
+    "conversion_rate": 0.0277,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-04-26",
+    "region": "Islamabad",
+    "reach": 81101,
+    "sessions": 8110,
+    "conversion_rate": 0.0113,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-04-26",
+    "region": "Karachi",
+    "reach": 57178,
+    "sessions": 5717,
+    "conversion_rate": 0.0232,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-04-26",
+    "region": "Lahore",
+    "reach": 97238,
+    "sessions": 9723,
+    "conversion_rate": 0.0223,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-26",
+    "region": "Multan",
+    "reach": 57332,
+    "sessions": 5733,
+    "conversion_rate": 0.0298,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-04-26",
+    "region": "Rawalpindi",
+    "reach": 60713,
+    "sessions": 6071,
+    "conversion_rate": 0.0288,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-04-27",
+    "region": "Faisalabad",
+    "reach": 88493,
+    "sessions": 8849,
+    "conversion_rate": 0.0111,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-04-27",
+    "region": "Islamabad",
+    "reach": 57902,
+    "sessions": 5790,
+    "conversion_rate": 0.0216,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-04-27",
+    "region": "Karachi",
+    "reach": 60425,
+    "sessions": 6042,
+    "conversion_rate": 0.0184,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-04-27",
+    "region": "Lahore",
+    "reach": 62594,
+    "sessions": 6259,
+    "conversion_rate": 0.0101,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-04-27",
+    "region": "Multan",
+    "reach": 74152,
+    "sessions": 7415,
+    "conversion_rate": 0.0159,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-04-27",
+    "region": "Rawalpindi",
+    "reach": 88951,
+    "sessions": 8895,
+    "conversion_rate": 0.0282,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-04-28",
+    "region": "Faisalabad",
+    "reach": 53879,
+    "sessions": 5387,
+    "conversion_rate": 0.0236,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-28",
+    "region": "Islamabad",
+    "reach": 93330,
+    "sessions": 9333,
+    "conversion_rate": 0.0152,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-04-28",
+    "region": "Karachi",
+    "reach": 50739,
+    "sessions": 5073,
+    "conversion_rate": 0.0289,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-28",
+    "region": "Lahore",
+    "reach": 83163,
+    "sessions": 8316,
+    "conversion_rate": 0.0249,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-04-28",
+    "region": "Multan",
+    "reach": 99038,
+    "sessions": 9903,
+    "conversion_rate": 0.0222,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-04-28",
+    "region": "Rawalpindi",
+    "reach": 60451,
+    "sessions": 6045,
+    "conversion_rate": 0.0177,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-29",
+    "region": "Faisalabad",
+    "reach": 91859,
+    "sessions": 9185,
+    "conversion_rate": 0.017,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-04-29",
+    "region": "Islamabad",
+    "reach": 57436,
+    "sessions": 5743,
+    "conversion_rate": 0.0204,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-29",
+    "region": "Karachi",
+    "reach": 81278,
+    "sessions": 8127,
+    "conversion_rate": 0.0179,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-04-29",
+    "region": "Lahore",
+    "reach": 76572,
+    "sessions": 7657,
+    "conversion_rate": 0.0279,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-04-29",
+    "region": "Multan",
+    "reach": 58191,
+    "sessions": 5819,
+    "conversion_rate": 0.0107,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-04-29",
+    "region": "Rawalpindi",
+    "reach": 67128,
+    "sessions": 6712,
+    "conversion_rate": 0.0275,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-30",
+    "region": "Faisalabad",
+    "reach": 83475,
+    "sessions": 8347,
+    "conversion_rate": 0.0291,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-04-30",
+    "region": "Islamabad",
+    "reach": 79937,
+    "sessions": 7993,
+    "conversion_rate": 0.0286,
+    "sentiment_score": 0.75
+  },
+  {
+    "date": "2026-04-30",
+    "region": "Karachi",
+    "reach": 64954,
+    "sessions": 6495,
+    "conversion_rate": 0.0175,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-04-30",
+    "region": "Lahore",
+    "reach": 54969,
+    "sessions": 5496,
+    "conversion_rate": 0.0207,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-04-30",
+    "region": "Multan",
+    "reach": 60744,
+    "sessions": 6074,
+    "conversion_rate": 0.0115,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-04-30",
+    "region": "Rawalpindi",
+    "reach": 60288,
+    "sessions": 6028,
+    "conversion_rate": 0.0218,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-01",
+    "region": "Faisalabad",
+    "reach": 52343,
+    "sessions": 5234,
+    "conversion_rate": 0.0209,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-05-01",
+    "region": "Islamabad",
+    "reach": 84612,
+    "sessions": 8461,
+    "conversion_rate": 0.0259,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-01",
+    "region": "Karachi",
+    "reach": 96808,
+    "sessions": 9680,
+    "conversion_rate": 0.0132,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-01",
+    "region": "Lahore",
+    "reach": 82741,
+    "sessions": 8274,
+    "conversion_rate": 0.0121,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-05-01",
+    "region": "Multan",
+    "reach": 72433,
+    "sessions": 7243,
+    "conversion_rate": 0.0292,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-01",
+    "region": "Rawalpindi",
+    "reach": 96578,
+    "sessions": 9657,
+    "conversion_rate": 0.0264,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-05-02",
+    "region": "Faisalabad",
+    "reach": 93763,
+    "sessions": 9376,
+    "conversion_rate": 0.0264,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-02",
+    "region": "Islamabad",
+    "reach": 75313,
+    "sessions": 7531,
+    "conversion_rate": 0.0139,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-02",
+    "region": "Karachi",
+    "reach": 59306,
+    "sessions": 5930,
+    "conversion_rate": 0.0226,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-05-02",
+    "region": "Lahore",
+    "reach": 62050,
+    "sessions": 6205,
+    "conversion_rate": 0.0264,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-05-02",
+    "region": "Multan",
+    "reach": 61830,
+    "sessions": 6183,
+    "conversion_rate": 0.0208,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-05-02",
+    "region": "Rawalpindi",
+    "reach": 50617,
+    "sessions": 5061,
+    "conversion_rate": 0.0286,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-03",
+    "region": "Faisalabad",
+    "reach": 64643,
+    "sessions": 6464,
+    "conversion_rate": 0.0254,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-05-03",
+    "region": "Islamabad",
+    "reach": 97614,
+    "sessions": 9761,
+    "conversion_rate": 0.0113,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-05-03",
+    "region": "Karachi",
+    "reach": 72344,
+    "sessions": 7234,
+    "conversion_rate": 0.027,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-05-03",
+    "region": "Lahore",
+    "reach": 98360,
+    "sessions": 9836,
+    "conversion_rate": 0.025,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-05-03",
+    "region": "Multan",
+    "reach": 86291,
+    "sessions": 8629,
+    "conversion_rate": 0.0113,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-03",
+    "region": "Rawalpindi",
+    "reach": 82196,
+    "sessions": 8219,
+    "conversion_rate": 0.0254,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-04",
+    "region": "Faisalabad",
+    "reach": 96249,
+    "sessions": 9624,
+    "conversion_rate": 0.0194,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-04",
+    "region": "Islamabad",
+    "reach": 74518,
+    "sessions": 7451,
+    "conversion_rate": 0.0133,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-04",
+    "region": "Karachi",
+    "reach": 61055,
+    "sessions": 6105,
+    "conversion_rate": 0.0268,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-04",
+    "region": "Lahore",
+    "reach": 54076,
+    "sessions": 5407,
+    "conversion_rate": 0.0274,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-04",
+    "region": "Multan",
+    "reach": 77836,
+    "sessions": 7783,
+    "conversion_rate": 0.0289,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-04",
+    "region": "Rawalpindi",
+    "reach": 78420,
+    "sessions": 7842,
+    "conversion_rate": 0.0252,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-05-05",
+    "region": "Faisalabad",
+    "reach": 55025,
+    "sessions": 5502,
+    "conversion_rate": 0.0279,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-05",
+    "region": "Islamabad",
+    "reach": 52426,
+    "sessions": 5242,
+    "conversion_rate": 0.0274,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-05-05",
+    "region": "Karachi",
+    "reach": 77815,
+    "sessions": 7781,
+    "conversion_rate": 0.0195,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-05",
+    "region": "Lahore",
+    "reach": 88103,
+    "sessions": 8810,
+    "conversion_rate": 0.0118,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-05-05",
+    "region": "Multan",
+    "reach": 67774,
+    "sessions": 6777,
+    "conversion_rate": 0.0252,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-05",
+    "region": "Rawalpindi",
+    "reach": 68602,
+    "sessions": 6860,
+    "conversion_rate": 0.0282,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-06",
+    "region": "Faisalabad",
+    "reach": 64252,
+    "sessions": 6425,
+    "conversion_rate": 0.0196,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-05-06",
+    "region": "Islamabad",
+    "reach": 61679,
+    "sessions": 6167,
+    "conversion_rate": 0.015,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-06",
+    "region": "Karachi",
+    "reach": 58795,
+    "sessions": 5879,
+    "conversion_rate": 0.023,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-06",
+    "region": "Lahore",
+    "reach": 85048,
+    "sessions": 8504,
+    "conversion_rate": 0.0162,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-05-06",
+    "region": "Multan",
+    "reach": 86571,
+    "sessions": 8657,
+    "conversion_rate": 0.0236,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-06",
+    "region": "Rawalpindi",
+    "reach": 92437,
+    "sessions": 9243,
+    "conversion_rate": 0.0239,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-07",
+    "region": "Faisalabad",
+    "reach": 71284,
+    "sessions": 7128,
+    "conversion_rate": 0.0245,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-05-07",
+    "region": "Islamabad",
+    "reach": 58913,
+    "sessions": 5891,
+    "conversion_rate": 0.0297,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-07",
+    "region": "Karachi",
+    "reach": 35052,
+    "sessions": 3505,
+    "conversion_rate": 0.0142,
+    "sentiment_score": 0.62
+  },
+  {
+    "date": "2026-05-07",
+    "region": "Lahore",
+    "reach": 59168,
+    "sessions": 5916,
+    "conversion_rate": 0.0165,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-05-07",
+    "region": "Multan",
+    "reach": 78429,
+    "sessions": 7842,
+    "conversion_rate": 0.0117,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-07",
+    "region": "Rawalpindi",
+    "reach": 93921,
+    "sessions": 9392,
+    "conversion_rate": 0.014,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-05-08",
+    "region": "Faisalabad",
+    "reach": 53999,
+    "sessions": 5399,
+    "conversion_rate": 0.0234,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-05-08",
+    "region": "Islamabad",
+    "reach": 89264,
+    "sessions": 8926,
+    "conversion_rate": 0.0219,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-08",
+    "region": "Karachi",
+    "reach": 46425,
+    "sessions": 4642,
+    "conversion_rate": 0.0287,
+    "sentiment_score": 0.59
+  },
+  {
+    "date": "2026-05-08",
+    "region": "Lahore",
+    "reach": 53355,
+    "sessions": 5335,
+    "conversion_rate": 0.0222,
+    "sentiment_score": 0.82
+  },
+  {
+    "date": "2026-05-08",
+    "region": "Multan",
+    "reach": 84282,
+    "sessions": 8428,
+    "conversion_rate": 0.021,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-08",
+    "region": "Rawalpindi",
+    "reach": 57813,
+    "sessions": 5781,
+    "conversion_rate": 0.0108,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-09",
+    "region": "Faisalabad",
+    "reach": 85998,
+    "sessions": 8599,
+    "conversion_rate": 0.0112,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-05-09",
+    "region": "Islamabad",
+    "reach": 52541,
+    "sessions": 5254,
+    "conversion_rate": 0.0144,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-09",
+    "region": "Karachi",
+    "reach": 33076,
+    "sessions": 3307,
+    "conversion_rate": 0.0258,
+    "sentiment_score": 0.58
+  },
+  {
+    "date": "2026-05-09",
+    "region": "Lahore",
+    "reach": 100067,
+    "sessions": 10006,
+    "conversion_rate": 0.0104,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-09",
+    "region": "Multan",
+    "reach": 87937,
+    "sessions": 8793,
+    "conversion_rate": 0.0295,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-05-09",
+    "region": "Rawalpindi",
+    "reach": 63816,
+    "sessions": 6381,
+    "conversion_rate": 0.0144,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-10",
+    "region": "Faisalabad",
+    "reach": 97704,
+    "sessions": 9770,
+    "conversion_rate": 0.0193,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-10",
+    "region": "Islamabad",
+    "reach": 99821,
+    "sessions": 9982,
+    "conversion_rate": 0.0269,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-10",
+    "region": "Karachi",
+    "reach": 45656,
+    "sessions": 4565,
+    "conversion_rate": 0.0201,
+    "sentiment_score": 0.67
+  },
+  {
+    "date": "2026-05-10",
+    "region": "Lahore",
+    "reach": 65870,
+    "sessions": 6587,
+    "conversion_rate": 0.0188,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-10",
+    "region": "Multan",
+    "reach": 72858,
+    "sessions": 7285,
+    "conversion_rate": 0.022,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-10",
+    "region": "Rawalpindi",
+    "reach": 96922,
+    "sessions": 9692,
+    "conversion_rate": 0.0218,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-11",
+    "region": "Faisalabad",
+    "reach": 97324,
+    "sessions": 9732,
+    "conversion_rate": 0.0267,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-11",
+    "region": "Islamabad",
+    "reach": 70345,
+    "sessions": 7034,
+    "conversion_rate": 0.022,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-11",
+    "region": "Karachi",
+    "reach": 30744,
+    "sessions": 3074,
+    "conversion_rate": 0.0136,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-05-11",
+    "region": "Lahore",
+    "reach": 54528,
+    "sessions": 5452,
+    "conversion_rate": 0.0274,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-11",
+    "region": "Multan",
+    "reach": 53715,
+    "sessions": 5371,
+    "conversion_rate": 0.0233,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-11",
+    "region": "Rawalpindi",
+    "reach": 85152,
+    "sessions": 8515,
+    "conversion_rate": 0.0294,
+    "sentiment_score": 0.76
+  },
+  {
+    "date": "2026-05-12",
+    "region": "Faisalabad",
+    "reach": 92621,
+    "sessions": 9262,
+    "conversion_rate": 0.022,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-12",
+    "region": "Islamabad",
+    "reach": 85942,
+    "sessions": 8594,
+    "conversion_rate": 0.0277,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-12",
+    "region": "Karachi",
+    "reach": 36978,
+    "sessions": 3697,
+    "conversion_rate": 0.0167,
+    "sentiment_score": 0.63
+  },
+  {
+    "date": "2026-05-12",
+    "region": "Lahore",
+    "reach": 93895,
+    "sessions": 9389,
+    "conversion_rate": 0.0218,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-12",
+    "region": "Multan",
+    "reach": 91590,
+    "sessions": 9159,
+    "conversion_rate": 0.0134,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-05-12",
+    "region": "Rawalpindi",
+    "reach": 56577,
+    "sessions": 5657,
+    "conversion_rate": 0.0256,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-05-13",
+    "region": "Faisalabad",
+    "reach": 63380,
+    "sessions": 6338,
+    "conversion_rate": 0.0274,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-13",
+    "region": "Islamabad",
+    "reach": 84812,
+    "sessions": 8481,
+    "conversion_rate": 0.0111,
+    "sentiment_score": 0.74
+  },
+  {
+    "date": "2026-05-13",
+    "region": "Karachi",
+    "reach": 44871,
+    "sessions": 4487,
+    "conversion_rate": 0.0228,
+    "sentiment_score": 0.56
+  },
+  {
+    "date": "2026-05-13",
+    "region": "Lahore",
+    "reach": 60741,
+    "sessions": 6074,
+    "conversion_rate": 0.0163,
+    "sentiment_score": 0.84
+  },
+  {
+    "date": "2026-05-13",
+    "region": "Multan",
+    "reach": 83929,
+    "sessions": 8392,
+    "conversion_rate": 0.0179,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-05-13",
+    "region": "Rawalpindi",
+    "reach": 88628,
+    "sessions": 8862,
+    "conversion_rate": 0.029,
+    "sentiment_score": 0.7
+  },
+  {
+    "date": "2026-05-14",
+    "region": "Faisalabad",
+    "reach": 65368,
+    "sessions": 6536,
+    "conversion_rate": 0.0203,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-14",
+    "region": "Islamabad",
+    "reach": 89035,
+    "sessions": 8903,
+    "conversion_rate": 0.0125,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-05-14",
+    "region": "Karachi",
+    "reach": 37817,
+    "sessions": 3781,
+    "conversion_rate": 0.014,
+    "sentiment_score": 0.66
+  },
+  {
+    "date": "2026-05-14",
+    "region": "Lahore",
+    "reach": 59396,
+    "sessions": 5939,
+    "conversion_rate": 0.0246,
+    "sentiment_score": 0.73
+  },
+  {
+    "date": "2026-05-14",
+    "region": "Multan",
+    "reach": 64159,
+    "sessions": 6415,
+    "conversion_rate": 0.0135,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-14",
+    "region": "Rawalpindi",
+    "reach": 95533,
+    "sessions": 9553,
+    "conversion_rate": 0.0175,
+    "sentiment_score": 0.85
+  },
+  {
+    "date": "2026-05-15",
+    "region": "Faisalabad",
+    "reach": 78847,
+    "sessions": 7884,
+    "conversion_rate": 0.0274,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-15",
+    "region": "Islamabad",
+    "reach": 80586,
+    "sessions": 8058,
+    "conversion_rate": 0.0259,
+    "sentiment_score": 0.72
+  },
+  {
+    "date": "2026-05-15",
+    "region": "Karachi",
+    "reach": 51285,
+    "sessions": 5128,
+    "conversion_rate": 0.0232,
+    "sentiment_score": 0.58
+  },
+  {
+    "date": "2026-05-15",
+    "region": "Lahore",
+    "reach": 62516,
+    "sessions": 6251,
+    "conversion_rate": 0.017,
+    "sentiment_score": 0.79
+  },
+  {
+    "date": "2026-05-15",
+    "region": "Multan",
+    "reach": 66837,
+    "sessions": 6683,
+    "conversion_rate": 0.0295,
+    "sentiment_score": 0.71
+  },
+  {
+    "date": "2026-05-15",
+    "region": "Rawalpindi",
+    "reach": 94933,
+    "sessions": 9493,
+    "conversion_rate": 0.0118,
+    "sentiment_score": 0.81
+  },
+  {
+    "date": "2026-05-16",
+    "region": "Faisalabad",
+    "reach": 89260,
+    "sessions": 8926,
+    "conversion_rate": 0.0181,
+    "sentiment_score": 0.83
+  },
+  {
+    "date": "2026-05-16",
+    "region": "Islamabad",
+    "reach": 77365,
+    "sessions": 7736,
+    "conversion_rate": 0.028,
+    "sentiment_score": 0.77
+  },
+  {
+    "date": "2026-05-16",
+    "region": "Karachi",
+    "reach": 58146,
+    "sessions": 5814,
+    "conversion_rate": 0.0264,
+    "sentiment_score": 0.62
+  },
+  {
+    "date": "2026-05-16",
+    "region": "Lahore",
+    "reach": 92259,
+    "sessions": 9225,
+    "conversion_rate": 0.0166,
+    "sentiment_score": 0.8
+  },
+  {
+    "date": "2026-05-16",
+    "region": "Multan",
+    "reach": 87743,
+    "sessions": 8774,
+    "conversion_rate": 0.0176,
+    "sentiment_score": 0.78
+  },
+  {
+    "date": "2026-05-16",
+    "region": "Rawalpindi",
+    "reach": 67084,
+    "sessions": 6708,
+    "conversion_rate": 0.0175,
+    "sentiment_score": 0.74
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "month": "2026-05",
+  "regions": {
+    "Faisalabad": {
+      "google_ads": 88690,
+      "meta_ads": 106428,
+      "tiktok": 70952,
+      "influencer": 44345
+    },
+    "Islamabad": {
+      "google_ads": 97787,
+      "meta_ads": 117345,
+      "tiktok": 78230,
+      "influencer": 48893
+    },
+    "Karachi": {
+      "google_ads": 89444,
+      "meta_ads": 107333,
+      "tiktok": 71555,
+      "influencer": 44722
+    },
+    "Lahore": {
+      "google_ads": 250000,
+      "meta_ads": 300000,
+      "tiktok": 200000,
+      "influencer": 125000
+    },
+    "Multan": {
+      "google_ads": 94507,
+      "meta_ads": 113408,
+      "tiktok": 75605,
+      "influencer": 47253
+    },
+    "Rawalpindi": {
+      "google_ads": 119237,
+      "meta_ads": 143084,
+      "tiktok": 95389,
+      "influencer": 59618
+    }
+  }
+}

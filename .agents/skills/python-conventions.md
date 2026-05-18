@@ -1,0 +1,7 @@
+- Python 3.11 with type hints everywhere
+- pydantic v2 for all data models
+- async functions for any tool with I/O
+- Format with ruff, line length 100
+- Imports: stdlib -> third-party -> local, separated by blank lines
+- No print() in production code — use structlog
+- pytest with pytest-asyncio in auto mode

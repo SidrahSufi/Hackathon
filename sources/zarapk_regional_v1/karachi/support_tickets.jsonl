@@ -1,0 +1,200 @@
+{"ticket_id": "TKT-0001", "date": "2026-05-15", "region": "Faisalabad", "category": "delivery", "sentiment": 0.3, "text": "Where is my order?"}
+{"ticket_id": "TKT-0002", "date": "2026-04-29", "region": "Islamabad", "category": "sizing", "sentiment": 0.32, "text": "Too small."}
+{"ticket_id": "TKT-0003", "date": "2026-05-02", "region": "Multan", "category": "delivery", "sentiment": 0.4, "text": "Where is my order?"}
+{"ticket_id": "TKT-0004", "date": "2026-04-24", "region": "Lahore", "category": "delivery", "sentiment": 0.19, "text": "Taking too long."}
+{"ticket_id": "TKT-0005", "date": "2026-05-13", "region": "Faisalabad", "category": "quality", "sentiment": 0.44, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0006", "date": "2026-04-21", "region": "Faisalabad", "category": "sizing", "sentiment": 0.15, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0007", "date": "2026-05-14", "region": "Multan", "category": "sizing", "sentiment": 0.35, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0008", "date": "2026-04-28", "region": "Islamabad", "category": "delivery", "sentiment": 0.36, "text": "Taking too long."}
+{"ticket_id": "TKT-0009", "date": "2026-05-14", "region": "Islamabad", "category": "quality", "sentiment": 0.21, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0010", "date": "2026-05-11", "region": "Karachi", "category": "sizing", "sentiment": 0.21, "text": "Too small."}
+{"ticket_id": "TKT-0011", "date": "2026-04-27", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.2, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0012", "date": "2026-05-04", "region": "Karachi", "category": "sizing", "sentiment": 0.38, "text": "Too small."}
+{"ticket_id": "TKT-0013", "date": "2026-04-25", "region": "Karachi", "category": "delivery", "sentiment": 0.19, "text": "Where is my order?"}
+{"ticket_id": "TKT-0014", "date": "2026-04-21", "region": "Karachi", "category": "delivery", "sentiment": 0.18, "text": "Taking too long."}
+{"ticket_id": "TKT-0015", "date": "2026-05-10", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.28, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0016", "date": "2026-05-12", "region": "Islamabad", "category": "sizing", "sentiment": 0.21, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0017", "date": "2026-04-18", "region": "Multan", "category": "delivery", "sentiment": 0.5, "text": "Where is my order?"}
+{"ticket_id": "TKT-0018", "date": "2026-04-30", "region": "Lahore", "category": "delivery", "sentiment": 0.44, "text": "Where is my order?"}
+{"ticket_id": "TKT-0019", "date": "2026-04-26", "region": "Islamabad", "category": "quality", "sentiment": 0.34, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0020", "date": "2026-05-04", "region": "Multan", "category": "sizing", "sentiment": 0.2, "text": "Too small."}
+{"ticket_id": "TKT-0021", "date": "2026-04-25", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.4, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0022", "date": "2026-05-13", "region": "Karachi", "category": "quality", "sentiment": 0.1, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0023", "date": "2026-04-30", "region": "Islamabad", "category": "delivery", "sentiment": 0.45, "text": "Taking too long."}
+{"ticket_id": "TKT-0024", "date": "2026-04-20", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.16, "text": "Where is my order?"}
+{"ticket_id": "TKT-0025", "date": "2026-04-29", "region": "Multan", "category": "sizing", "sentiment": 0.23, "text": "Too small."}
+{"ticket_id": "TKT-0026", "date": "2026-05-13", "region": "Karachi", "category": "quality", "sentiment": 0.2, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0027", "date": "2026-04-18", "region": "Multan", "category": "delivery", "sentiment": 0.39, "text": "Where is my order?"}
+{"ticket_id": "TKT-0028", "date": "2026-04-22", "region": "Multan", "category": "delivery", "sentiment": 0.36, "text": "Where is my order?"}
+{"ticket_id": "TKT-0029", "date": "2026-05-08", "region": "Multan", "category": "quality", "sentiment": 0.49, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0030", "date": "2026-04-24", "region": "Karachi", "category": "sizing", "sentiment": 0.36, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0031", "date": "2026-04-18", "region": "Multan", "category": "delivery", "sentiment": 0.19, "text": "Taking too long."}
+{"ticket_id": "TKT-0032", "date": "2026-05-16", "region": "Multan", "category": "sizing", "sentiment": 0.19, "text": "Too small."}
+{"ticket_id": "TKT-0033", "date": "2026-04-24", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.46, "text": "Taking too long."}
+{"ticket_id": "TKT-0034", "date": "2026-05-14", "region": "Multan", "category": "sizing", "sentiment": 0.29, "text": "Too small."}
+{"ticket_id": "TKT-0035", "date": "2026-04-23", "region": "Multan", "category": "delivery", "sentiment": 0.41, "text": "Taking too long."}
+{"ticket_id": "TKT-0036", "date": "2026-05-10", "region": "Faisalabad", "category": "quality", "sentiment": 0.24, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0037", "date": "2026-05-02", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.49, "text": "Too small."}
+{"ticket_id": "TKT-0038", "date": "2026-05-15", "region": "Lahore", "category": "delivery", "sentiment": 0.2, "text": "Where is my order?"}
+{"ticket_id": "TKT-0039", "date": "2026-04-29", "region": "Lahore", "category": "delivery", "sentiment": 0.21, "text": "Where is my order?"}
+{"ticket_id": "TKT-0040", "date": "2026-04-19", "region": "Faisalabad", "category": "sizing", "sentiment": 0.14, "text": "Too small."}
+{"ticket_id": "TKT-0041", "date": "2026-05-14", "region": "Islamabad", "category": "quality", "sentiment": 0.29, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0042", "date": "2026-04-18", "region": "Faisalabad", "category": "delivery", "sentiment": 0.49, "text": "Taking too long."}
+{"ticket_id": "TKT-0043", "date": "2026-04-17", "region": "Lahore", "category": "sizing", "sentiment": 0.48, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0044", "date": "2026-05-12", "region": "Islamabad", "category": "delivery", "sentiment": 0.33, "text": "Where is my order?"}
+{"ticket_id": "TKT-0045", "date": "2026-04-23", "region": "Karachi", "category": "sizing", "sentiment": 0.29, "text": "Too small."}
+{"ticket_id": "TKT-0046", "date": "2026-05-15", "region": "Multan", "category": "delivery", "sentiment": 0.13, "text": "Where is my order?"}
+{"ticket_id": "TKT-0047", "date": "2026-04-25", "region": "Islamabad", "category": "sizing", "sentiment": 0.2, "text": "Too small."}
+{"ticket_id": "TKT-0048", "date": "2026-04-27", "region": "Faisalabad", "category": "sizing", "sentiment": 0.33, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0049", "date": "2026-04-17", "region": "Karachi", "category": "sizing", "sentiment": 0.23, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0050", "date": "2026-05-04", "region": "Islamabad", "category": "quality", "sentiment": 0.28, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0051", "date": "2026-05-16", "region": "Lahore", "category": "sizing", "sentiment": 0.5, "text": "Too small."}
+{"ticket_id": "TKT-0052", "date": "2026-04-29", "region": "Islamabad", "category": "delivery", "sentiment": 0.47, "text": "Where is my order?"}
+{"ticket_id": "TKT-0053", "date": "2026-04-18", "region": "Islamabad", "category": "delivery", "sentiment": 0.28, "text": "Taking too long."}
+{"ticket_id": "TKT-0054", "date": "2026-04-27", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.43, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0055", "date": "2026-04-17", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.21, "text": "Where is my order?"}
+{"ticket_id": "TKT-0056", "date": "2026-04-23", "region": "Multan", "category": "quality", "sentiment": 0.34, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0057", "date": "2026-05-10", "region": "Rawalpindi", "category": "quality", "sentiment": 0.3, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0058", "date": "2026-04-18", "region": "Faisalabad", "category": "quality", "sentiment": 0.43, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0059", "date": "2026-05-16", "region": "Karachi", "category": "sizing", "sentiment": 0.49, "text": "Too small."}
+{"ticket_id": "TKT-0060", "date": "2026-04-23", "region": "Lahore", "category": "quality", "sentiment": 0.32, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0061", "date": "2026-05-14", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.11, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0062", "date": "2026-04-28", "region": "Multan", "category": "delivery", "sentiment": 0.12, "text": "Taking too long."}
+{"ticket_id": "TKT-0063", "date": "2026-04-18", "region": "Faisalabad", "category": "delivery", "sentiment": 0.37, "text": "Where is my order?"}
+{"ticket_id": "TKT-0064", "date": "2026-05-05", "region": "Multan", "category": "quality", "sentiment": 0.49, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0065", "date": "2026-04-17", "region": "Islamabad", "category": "delivery", "sentiment": 0.45, "text": "Where is my order?"}
+{"ticket_id": "TKT-0066", "date": "2026-05-11", "region": "Rawalpindi", "category": "quality", "sentiment": 0.42, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0067", "date": "2026-05-08", "region": "Islamabad", "category": "delivery", "sentiment": 0.25, "text": "Where is my order?"}
+{"ticket_id": "TKT-0068", "date": "2026-04-19", "region": "Lahore", "category": "quality", "sentiment": 0.24, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0069", "date": "2026-05-09", "region": "Faisalabad", "category": "quality", "sentiment": 0.23, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0070", "date": "2026-04-22", "region": "Karachi", "category": "sizing", "sentiment": 0.26, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0071", "date": "2026-05-16", "region": "Faisalabad", "category": "quality", "sentiment": 0.17, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0072", "date": "2026-05-15", "region": "Faisalabad", "category": "quality", "sentiment": 0.39, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0073", "date": "2026-05-03", "region": "Multan", "category": "delivery", "sentiment": 0.25, "text": "Where is my order?"}
+{"ticket_id": "TKT-0074", "date": "2026-05-08", "region": "Faisalabad", "category": "delivery", "sentiment": 0.31, "text": "Where is my order?"}
+{"ticket_id": "TKT-0075", "date": "2026-05-05", "region": "Lahore", "category": "sizing", "sentiment": 0.47, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0076", "date": "2026-04-25", "region": "Faisalabad", "category": "quality", "sentiment": 0.3, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0077", "date": "2026-05-06", "region": "Lahore", "category": "sizing", "sentiment": 0.15, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0078", "date": "2026-04-25", "region": "Lahore", "category": "delivery", "sentiment": 0.35, "text": "Taking too long."}
+{"ticket_id": "TKT-0079", "date": "2026-05-04", "region": "Multan", "category": "quality", "sentiment": 0.21, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0080", "date": "2026-04-21", "region": "Multan", "category": "quality", "sentiment": 0.29, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0081", "date": "2026-04-25", "region": "Islamabad", "category": "sizing", "sentiment": 0.17, "text": "Too small."}
+{"ticket_id": "TKT-0082", "date": "2026-05-07", "region": "Multan", "category": "sizing", "sentiment": 0.23, "text": "Too small."}
+{"ticket_id": "TKT-0083", "date": "2026-04-25", "region": "Karachi", "category": "delivery", "sentiment": 0.16, "text": "Where is my order?"}
+{"ticket_id": "TKT-0084", "date": "2026-05-09", "region": "Lahore", "category": "delivery", "sentiment": 0.28, "text": "Where is my order?"}
+{"ticket_id": "TKT-0085", "date": "2026-04-24", "region": "Rawalpindi", "category": "quality", "sentiment": 0.2, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0086", "date": "2026-04-18", "region": "Faisalabad", "category": "delivery", "sentiment": 0.17, "text": "Taking too long."}
+{"ticket_id": "TKT-0087", "date": "2026-05-15", "region": "Multan", "category": "delivery", "sentiment": 0.28, "text": "Taking too long."}
+{"ticket_id": "TKT-0088", "date": "2026-04-25", "region": "Multan", "category": "sizing", "sentiment": 0.23, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0089", "date": "2026-04-27", "region": "Rawalpindi", "category": "quality", "sentiment": 0.43, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0090", "date": "2026-04-18", "region": "Islamabad", "category": "quality", "sentiment": 0.28, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0091", "date": "2026-04-20", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.29, "text": "Too small."}
+{"ticket_id": "TKT-0092", "date": "2026-05-08", "region": "Lahore", "category": "quality", "sentiment": 0.19, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0093", "date": "2026-05-06", "region": "Multan", "category": "delivery", "sentiment": 0.19, "text": "Where is my order?"}
+{"ticket_id": "TKT-0094", "date": "2026-04-24", "region": "Islamabad", "category": "quality", "sentiment": 0.23, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0095", "date": "2026-05-03", "region": "Faisalabad", "category": "quality", "sentiment": 0.26, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0096", "date": "2026-04-19", "region": "Multan", "category": "delivery", "sentiment": 0.48, "text": "Taking too long."}
+{"ticket_id": "TKT-0097", "date": "2026-04-22", "region": "Lahore", "category": "quality", "sentiment": 0.32, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0098", "date": "2026-05-01", "region": "Islamabad", "category": "quality", "sentiment": 0.11, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0099", "date": "2026-04-25", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.17, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0100", "date": "2026-04-17", "region": "Islamabad", "category": "sizing", "sentiment": 0.11, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0101", "date": "2026-04-28", "region": "Multan", "category": "delivery", "sentiment": 0.36, "text": "Where is my order?"}
+{"ticket_id": "TKT-0102", "date": "2026-04-19", "region": "Lahore", "category": "quality", "sentiment": 0.25, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0103", "date": "2026-05-02", "region": "Karachi", "category": "quality", "sentiment": 0.21, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0104", "date": "2026-05-08", "region": "Faisalabad", "category": "sizing", "sentiment": 0.32, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0105", "date": "2026-05-09", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.12, "text": "Too small."}
+{"ticket_id": "TKT-0106", "date": "2026-05-09", "region": "Islamabad", "category": "sizing", "sentiment": 0.16, "text": "Too small."}
+{"ticket_id": "TKT-0107", "date": "2026-05-01", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.29, "text": "Taking too long."}
+{"ticket_id": "TKT-0108", "date": "2026-04-22", "region": "Karachi", "category": "sizing", "sentiment": 0.49, "text": "Too small."}
+{"ticket_id": "TKT-0109", "date": "2026-04-22", "region": "Islamabad", "category": "delivery", "sentiment": 0.33, "text": "Taking too long."}
+{"ticket_id": "TKT-0110", "date": "2026-04-28", "region": "Rawalpindi", "category": "quality", "sentiment": 0.26, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0111", "date": "2026-05-14", "region": "Multan", "category": "sizing", "sentiment": 0.2, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0112", "date": "2026-04-19", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.42, "text": "Where is my order?"}
+{"ticket_id": "TKT-0113", "date": "2026-05-05", "region": "Multan", "category": "quality", "sentiment": 0.13, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0114", "date": "2026-05-16", "region": "Lahore", "category": "delivery", "sentiment": 0.27, "text": "Taking too long."}
+{"ticket_id": "TKT-0115", "date": "2026-04-26", "region": "Lahore", "category": "quality", "sentiment": 0.17, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0116", "date": "2026-04-27", "region": "Multan", "category": "quality", "sentiment": 0.27, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0117", "date": "2026-05-06", "region": "Islamabad", "category": "delivery", "sentiment": 0.21, "text": "Taking too long."}
+{"ticket_id": "TKT-0118", "date": "2026-05-09", "region": "Lahore", "category": "sizing", "sentiment": 0.25, "text": "Too small."}
+{"ticket_id": "TKT-0119", "date": "2026-05-01", "region": "Karachi", "category": "delivery", "sentiment": 0.24, "text": "Taking too long."}
+{"ticket_id": "TKT-0120", "date": "2026-05-06", "region": "Karachi", "category": "sizing", "sentiment": 0.45, "text": "Too small."}
+{"ticket_id": "TKT-0121", "date": "2026-04-30", "region": "Islamabad", "category": "sizing", "sentiment": 0.26, "text": "Too small."}
+{"ticket_id": "TKT-0122", "date": "2026-04-24", "region": "Lahore", "category": "quality", "sentiment": 0.28, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0123", "date": "2026-05-14", "region": "Karachi", "category": "pricing", "sentiment": 0.22, "text": "Prices are ridiculous."}
+{"ticket_id": "TKT-0124", "date": "2026-05-01", "region": "Multan", "category": "quality", "sentiment": 0.5, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0125", "date": "2026-05-05", "region": "Rawalpindi", "category": "quality", "sentiment": 0.2, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0126", "date": "2026-04-23", "region": "Islamabad", "category": "sizing", "sentiment": 0.31, "text": "Too small."}
+{"ticket_id": "TKT-0127", "date": "2026-05-10", "region": "Islamabad", "category": "quality", "sentiment": 0.39, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0128", "date": "2026-05-13", "region": "Islamabad", "category": "quality", "sentiment": 0.17, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0129", "date": "2026-04-24", "region": "Multan", "category": "delivery", "sentiment": 0.49, "text": "Taking too long."}
+{"ticket_id": "TKT-0130", "date": "2026-04-24", "region": "Islamabad", "category": "quality", "sentiment": 0.14, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0131", "date": "2026-04-28", "region": "Karachi", "category": "quality", "sentiment": 0.24, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0132", "date": "2026-05-08", "region": "Lahore", "category": "delivery", "sentiment": 0.26, "text": "Where is my order?"}
+{"ticket_id": "TKT-0133", "date": "2026-04-28", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.16, "text": "Taking too long."}
+{"ticket_id": "TKT-0134", "date": "2026-05-14", "region": "Islamabad", "category": "quality", "sentiment": 0.34, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0135", "date": "2026-04-22", "region": "Multan", "category": "quality", "sentiment": 0.22, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0136", "date": "2026-05-07", "region": "Multan", "category": "sizing", "sentiment": 0.48, "text": "Too small."}
+{"ticket_id": "TKT-0137", "date": "2026-04-22", "region": "Islamabad", "category": "quality", "sentiment": 0.36, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0138", "date": "2026-05-09", "region": "Islamabad", "category": "delivery", "sentiment": 0.1, "text": "Taking too long."}
+{"ticket_id": "TKT-0139", "date": "2026-04-24", "region": "Multan", "category": "delivery", "sentiment": 0.19, "text": "Taking too long."}
+{"ticket_id": "TKT-0140", "date": "2026-04-24", "region": "Lahore", "category": "delivery", "sentiment": 0.47, "text": "Where is my order?"}
+{"ticket_id": "TKT-0141", "date": "2026-05-03", "region": "Faisalabad", "category": "sizing", "sentiment": 0.16, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0142", "date": "2026-04-20", "region": "Islamabad", "category": "delivery", "sentiment": 0.42, "text": "Taking too long."}
+{"ticket_id": "TKT-0143", "date": "2026-05-02", "region": "Faisalabad", "category": "quality", "sentiment": 0.38, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0144", "date": "2026-04-30", "region": "Multan", "category": "delivery", "sentiment": 0.34, "text": "Taking too long."}
+{"ticket_id": "TKT-0145", "date": "2026-04-23", "region": "Karachi", "category": "delivery", "sentiment": 0.14, "text": "Where is my order?"}
+{"ticket_id": "TKT-0146", "date": "2026-04-22", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.12, "text": "Too small."}
+{"ticket_id": "TKT-0147", "date": "2026-05-01", "region": "Multan", "category": "quality", "sentiment": 0.17, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0148", "date": "2026-04-26", "region": "Lahore", "category": "quality", "sentiment": 0.24, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0149", "date": "2026-05-06", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.23, "text": "Taking too long."}
+{"ticket_id": "TKT-0150", "date": "2026-05-07", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.11, "text": "Too small."}
+{"ticket_id": "TKT-0151", "date": "2026-05-06", "region": "Karachi", "category": "quality", "sentiment": 0.45, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0152", "date": "2026-04-25", "region": "Multan", "category": "delivery", "sentiment": 0.18, "text": "Taking too long."}
+{"ticket_id": "TKT-0153", "date": "2026-04-27", "region": "Lahore", "category": "delivery", "sentiment": 0.18, "text": "Where is my order?"}
+{"ticket_id": "TKT-0154", "date": "2026-04-17", "region": "Karachi", "category": "sizing", "sentiment": 0.29, "text": "Too small."}
+{"ticket_id": "TKT-0155", "date": "2026-04-26", "region": "Multan", "category": "sizing", "sentiment": 0.16, "text": "Too small."}
+{"ticket_id": "TKT-0156", "date": "2026-04-29", "region": "Lahore", "category": "delivery", "sentiment": 0.28, "text": "Where is my order?"}
+{"ticket_id": "TKT-0157", "date": "2026-04-26", "region": "Islamabad", "category": "sizing", "sentiment": 0.22, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0158", "date": "2026-05-03", "region": "Lahore", "category": "delivery", "sentiment": 0.28, "text": "Where is my order?"}
+{"ticket_id": "TKT-0159", "date": "2026-05-04", "region": "Islamabad", "category": "sizing", "sentiment": 0.4, "text": "Too small."}
+{"ticket_id": "TKT-0160", "date": "2026-04-19", "region": "Faisalabad", "category": "quality", "sentiment": 0.24, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0161", "date": "2026-04-20", "region": "Faisalabad", "category": "quality", "sentiment": 0.43, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0162", "date": "2026-04-19", "region": "Islamabad", "category": "quality", "sentiment": 0.24, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0163", "date": "2026-05-02", "region": "Karachi", "category": "sizing", "sentiment": 0.2, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0164", "date": "2026-05-09", "region": "Lahore", "category": "competitor_mention", "sentiment": 0.38, "text": "Switching to TrendyPK."}
+{"ticket_id": "TKT-0165", "date": "2026-05-04", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.49, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0166", "date": "2026-05-15", "region": "Islamabad", "category": "sizing", "sentiment": 0.23, "text": "Too small."}
+{"ticket_id": "TKT-0167", "date": "2026-04-19", "region": "Lahore", "category": "quality", "sentiment": 0.11, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0168", "date": "2026-05-03", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.29, "text": "Taking too long."}
+{"ticket_id": "TKT-0169", "date": "2026-05-06", "region": "Multan", "category": "sizing", "sentiment": 0.13, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0170", "date": "2026-04-19", "region": "Rawalpindi", "category": "quality", "sentiment": 0.48, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0171", "date": "2026-04-19", "region": "Multan", "category": "pricing", "sentiment": 0.19, "text": "Prices are ridiculous."}
+{"ticket_id": "TKT-0172", "date": "2026-05-09", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.4, "text": "Where is my order?"}
+{"ticket_id": "TKT-0173", "date": "2026-05-02", "region": "Islamabad", "category": "delivery", "sentiment": 0.12, "text": "Where is my order?"}
+{"ticket_id": "TKT-0174", "date": "2026-05-07", "region": "Karachi", "category": "delivery", "sentiment": 0.2, "text": "Taking too long."}
+{"ticket_id": "TKT-0175", "date": "2026-04-28", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.17, "text": "Taking too long."}
+{"ticket_id": "TKT-0176", "date": "2026-04-27", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.16, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0177", "date": "2026-04-26", "region": "Karachi", "category": "sizing", "sentiment": 0.1, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0178", "date": "2026-04-18", "region": "Karachi", "category": "delivery", "sentiment": 0.13, "text": "Taking too long."}
+{"ticket_id": "TKT-0179", "date": "2026-04-28", "region": "Karachi", "category": "quality", "sentiment": 0.38, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0180", "date": "2026-04-19", "region": "Karachi", "category": "quality", "sentiment": 0.44, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0181", "date": "2026-05-09", "region": "Lahore", "category": "sizing", "sentiment": 0.22, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0182", "date": "2026-05-16", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.33, "text": "Where is my order?"}
+{"ticket_id": "TKT-0183", "date": "2026-04-17", "region": "Multan", "category": "quality", "sentiment": 0.41, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0184", "date": "2026-04-27", "region": "Karachi", "category": "delivery", "sentiment": 0.35, "text": "Where is my order?"}
+{"ticket_id": "TKT-0185", "date": "2026-04-26", "region": "Faisalabad", "category": "sizing", "sentiment": 0.12, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0186", "date": "2026-05-15", "region": "Multan", "category": "delivery", "sentiment": 0.14, "text": "Taking too long."}
+{"ticket_id": "TKT-0187", "date": "2026-05-06", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.15, "text": "Taking too long."}
+{"ticket_id": "TKT-0188", "date": "2026-04-30", "region": "Multan", "category": "delivery", "sentiment": 0.2, "text": "Taking too long."}
+{"ticket_id": "TKT-0189", "date": "2026-04-21", "region": "Karachi", "category": "quality", "sentiment": 0.42, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0190", "date": "2026-05-14", "region": "Islamabad", "category": "delivery", "sentiment": 0.44, "text": "Taking too long."}
+{"ticket_id": "TKT-0191", "date": "2026-04-19", "region": "Multan", "category": "quality", "sentiment": 0.11, "text": "Stitching is bad."}
+{"ticket_id": "TKT-0192", "date": "2026-05-02", "region": "Karachi", "category": "sizing", "sentiment": 0.2, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0193", "date": "2026-04-20", "region": "Rawalpindi", "category": "delivery", "sentiment": 0.37, "text": "Taking too long."}
+{"ticket_id": "TKT-0194", "date": "2026-05-16", "region": "Multan", "category": "sizing", "sentiment": 0.23, "text": "Too small."}
+{"ticket_id": "TKT-0195", "date": "2026-04-26", "region": "Faisalabad", "category": "quality", "sentiment": 0.46, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0196", "date": "2026-04-26", "region": "Lahore", "category": "delivery", "sentiment": 0.48, "text": "Taking too long."}
+{"ticket_id": "TKT-0197", "date": "2026-05-01", "region": "Faisalabad", "category": "sizing", "sentiment": 0.15, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0198", "date": "2026-05-05", "region": "Rawalpindi", "category": "sizing", "sentiment": 0.48, "text": "Doesn't fit right."}
+{"ticket_id": "TKT-0199", "date": "2026-04-28", "region": "Rawalpindi", "category": "quality", "sentiment": 0.36, "text": "Color faded after one wash."}
+{"ticket_id": "TKT-0200", "date": "2026-04-27", "region": "Lahore", "category": "quality", "sentiment": 0.11, "text": "Color faded after one wash."}

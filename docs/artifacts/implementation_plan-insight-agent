@@ -1,0 +1,108 @@
+# Insight Agent Implementation
+
+Build the second agent in the PulseAI pipeline. It reads `ingestion.json`, performs cross-region temporal analysis to detect the outlier, identifies the affected segment, and produces 5 ranked insights with evidence references.
+
+**Critical rule**: All math in Python (`temporal.py`). The LLM never computes.
+
+## Data Flow Context
+
+From the existing ingestion output (`r-test-1`), the non-discarded signals and their `src_id`s are:
+
+| src_id | File | Type |
+|---|---|---|
+| `src-1` | `analytics_by_region.json` | json |
+| `src-2` | `marketing_spend.json` | json |
+| `src-3` | `monthly_regional_sales.pdf` | pdf |
+| `src-4` | `news_competitor_expansion.html` | html |
+| `src-6` | `pos_ecom_last_30d.csv` | csv |
+| `src-8` | `support_tickets.jsonl` | jsonl |
+
+The CSV columns are: `date, region, channel, orders, revenue_pkr, avg_basket_pkr`.
+Date range: `2026-04-17` to `2026-05-16` (30 days before `REFERENCE_TODAY`).
+
+## Proposed Changes
+
+### Schemas
+
+#### [NEW] [schemas.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/insight/schemas.py)
+
+- **`Insight`**: `insight_id` (I1–I5), `title`, `severity` (Literal), `confidence` ∈ [0,1], `region`, `evidence_refs` (list of src_ids), `metrics` (dict of computed numbers), `rationale` (human-readable sentence).
+- **`InsightResult`**: `run_id`, `seed_region`, `detected_outlier_region`, `insights` list.
+
+---
+
+### Temporal Analysis (pure Python math)
+
+#### [NEW] [temporal.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/insight/temporal.py)
+
+Four functions, all pure pandas/Python:
+
+| Function | Purpose |
+|---|---|
+| `compare_windows` | Split data into two trailing windows (recent vs prior), compute per-region aggregate, return pct_change sorted ascending |
+| `detect_outlier_regions` | Regions whose `abs(pct_change)` exceeds `2 × noise_pct` |
+| `cluster_complaint_segment` | From support tickets for a given region in last N days, return dominant complaint category and its share |
+| `correlate_in_time` | Score 0–1 based on temporal proximity of competitor event to decline start |
+
+**Window design**: `compare_windows` takes `window_a_days=15, window_b_days=15` as defaults. Window A = last 15 days of data. Window B = the 15 days before that. This splits the 30-day CSV cleanly in half and captures the accelerating decline in the outlier.
+
+---
+
+### Tools
+
+#### [NEW] [tools.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/insight/tools.py)
+
+- Thin wrappers around the temporal functions for ADK tool registration.
+- `extract_entities_from_html(html_path)` — regex/keyword extraction for competitor name, regions mentioned, expansion date. No LLM.
+
+---
+
+### Agent
+
+#### [NEW] [agent.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/insight/agent.py)
+
+- `LlmAgent` definition for future use.
+- `run_insight(run_id: str) -> InsightResult` — pure Python pipeline:
+  1. Load `ingestion.json`, filter non-discarded signals.
+  2. Find POS CSV signal by `source_type == "csv"`, load raw CSV from its `source_path`.
+  3. `compare_windows` on `orders` column → per-region pct_change.
+  4. `detect_outlier_regions` → set `detected_outlier_region`.
+  5. For the outlier: load tickets JSONL, run `cluster_complaint_segment`; load analytics JSON, compute reach change; extract competitor entities from news HTML; load marketing spend.
+  6. Build 5 insights (I1–I5) with `metrics` dicts containing the exact numbers from Python tools.
+  7. Write `.state/<run_id>/insights.json`.
+
+> [!IMPORTANT]
+> The seed file (`lahore.seed.json`) is read to obtain `affected_segment` metadata for I2. The `source_path` for the seed file is derived from the `seed_region` in the ingestion result.
+
+---
+
+### Package Init
+
+#### [MODIFY] [\_\_init\_\_.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/insight/__init__.py)
+
+Export `Insight`, `InsightResult`, `run_insight`.
+
+---
+
+### Tests
+
+#### [NEW] [test_temporal.py](file:///c:/Users/baisa/Desktop/pulse-ai/tests/test_temporal.py)
+
+- Load actual lahore CSV → `compare_windows` + `detect_outlier_regions` returns `["Lahore"]`.
+- Load actual karachi CSV → returns `["Karachi"]`.
+- Synthetic flat DataFrame → returns `[]`.
+
+#### [NEW] [test_insight_agent.py](file:///c:/Users/baisa/Desktop/pulse-ai/tests/test_insight_agent.py)
+
+- `test_lahore_outlier`: `detected_outlier_region == "Lahore"`.
+- `test_karachi_outlier`: `detected_outlier_region == "Karachi"`.
+- `test_five_insights`: exactly 5 insights with ids I1–I5.
+- `test_evidence_refs_valid`: all `evidence_refs` are valid `src_id`s from `ingestion.json`.
+- `test_no_invented_numbers`: `I1.metrics["orders_change_pct"]` matches `compare_windows` output within 1 pp.
+
+## Verification Plan
+
+### Automated Tests
+```
+pytest tests/test_temporal.py tests/test_insight_agent.py -v
+```
