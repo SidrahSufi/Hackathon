@@ -1,0 +1,69 @@
+# Bizplus Screens Implementation Architecture
+
+## 1. Overview
+The Bizplus application is built using a highly animated, agentic-driven Flutter frontend. It consists of 6 core screens orchestrating a complete AI workflow from data ingestion to actionable business outcomes. The architecture strictly adheres to the "Google Antigravity Hackathon 2026" guidelines, specifically focusing on **Agentic Reasoning**, **Visible Outcomes**, and **Pakistan Local Context**.
+
+---
+
+## 2. Screen-by-Screen Implementation Plan
+
+### 2.1 Sources Screen (`home.dart`)
+- **Role:** The data ingestion starting point.
+- **Key Features:** 
+  - Allows users to upload business data (PDF, CSV, JSON, TXT) or paste external URLs.
+  - Features a welcoming empty state ("Hi! Sidrah") when no files are uploaded.
+  - Staggered entrance animations for each uploaded file (`_AnimatedListItem`).
+- **Hackathon Alignment:** Provides the crucial "trigger" for the agents. Transitioning to the next screen initiates the `demo-run-001` pipeline.
+
+### 2.2 Insights Screen (`insights_screen.dart`)
+- **Role:** Data analysis and outlier detection.
+- **Key Features:**
+  - Displays an "Agent Status Banner" showing the AI's confidence score (e.g., 94% average confidence).
+  - Presents an Executive Summary and a filterable list of insights categorized by severity (Critical, High, Medium, Low).
+  - Staggered slide-in animations for each insight card.
+- **Hackathon Alignment:** Showcases the **Observation** phase of the Agentic framework. It clearly identifies the local business problem (e.g., Lahore orders −25% over 30 days).
+
+### 2.3 Contradictions Screen (`contradictions_screen.dart`)
+- **Role:** Highlights the `ConflictResolver` agent's reasoning process.
+- **Key Features:**
+  - Compares conflicting data points from different sources (e.g., an old PDF vs. fresh POS CSV data).
+  - Shows the agent's resolution logic (e.g., prioritizing recency and high credibility) and explicitly flags unresolvable conflicts for human review.
+- **Hackathon Alignment:** Directly hits the **Agentic Reasoning (Rule 00-B)** criteria. It provides transparency into how the AI handles messy, conflicting real-world data without breaking down.
+
+### 2.4 Action Plan Screen (`action_plan_screen.dart`)
+- **Role:** Decision mapping and budget checking.
+- **Key Features:**
+  - Renders a visual Directed Acyclic Graph (DAG) representing the execution chain of tasks (`A1` through `A5`).
+  - Includes a "Budget Summary" card checking proposed costs against a simulated cap (e.g., 720k / 800k PKR).
+  - Execution simulation changes task statuses (pending → running → done) in real-time.
+- **Hackathon Alignment:** Satisfies the **Pakistan Context (PKR)** and **Action Simulation (Rule 00-D)**. The user can visually audit the agent's plan before approving it.
+
+### 2.5 Live Trace Screen (`live_trace_screen.dart`)
+- **Role:** Real-time visibility into the multi-agent pipeline.
+- **Key Features:**
+  - Connects to a backend via `WebSocketService` but critically implements an **automatic fallback to a Demo Ticker** if the socket fails or isn't connected.
+  - Auto-scrolling list of trace events logging every action, error, and retry across 5 distinct agents (Ingestion, Insight, ConflictResolver, ActionPlanner, Executor).
+  - A top pipeline tracker indicating which agent is currently active.
+- **Hackathon Alignment:** The ultimate **Demo Ready (Rule 20)** component. It guarantees that judges can see the entire agentic thought process smoothly simulated in under 2 minutes.
+
+### 2.6 Outcome Screen (`outcome_screen.dart`)
+- **Role:** ROI and impact reporting.
+- **Key Features:**
+  - A complex sequence of staggered animations spanning 1250ms.
+  - Custom `RecoveryGraphPainter` drawing a bezier curve that animates to show the projected recovery over 14 days.
+  - Displays clear "Before" and "Projected" metrics, including revenue recovered and Return on Ad Spend (ROAS).
+- **Hackathon Alignment:** Delivers the **Visible Outcomes** requirement. It closes the loop by showing exactly how the AI's actions generated measurable business value.
+
+---
+
+## 3. Technical Architecture & Rules Adherence
+
+### Design Quality & Motion (Rules 01 & 02)
+- **Custom UI:** No generic material designs. Every screen utilizes `AppColors` (custom hex tokens), `GoogleFonts.poppins`, and specific border radii.
+- **Animations:** Extensive use of `AnimationController`, `CurvedAnimation`, and `Transform.translate` to ensure no "dead UIs". Every list and screen transition uses an entrance stagger.
+
+### Code Quality & Offline Support (Rules 03 & 15)
+- **Demo Fallbacks:** The `LiveTraceScreen` is a prime example of offline/demo-ready code. It catches socket exceptions and silently switches to a hardcoded data trace to ensure the demo never fails.
+
+### Local Context (Rule 00-E)
+- Uses Pakistani Rupees (PKR) formatting throughout (e.g., `14,00,000` formatting logic). Data focuses on Pakistani cities like Lahore and Karachi.
