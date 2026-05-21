@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.venv
+.pytest_cache
+.ruff_cache
+.state
+*.md
+.git
+.gitignore
+.agents
+docs
+*.egg-info
+.DS_Store

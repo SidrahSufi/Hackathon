@@ -1,0 +1,5 @@
+- Agents do NOT call any backend API
+- Agents read and write JSON state files at .state/{run_id}/
+- File names: ingestion.json, insights.json, contradictions.json, plan.json, execution.json, outcome.json
+- The FastAPI backend (built by teammates) will tail these files and stream to a mobile app over WebSocket
+- Event schema for future use: {ts, run_id, agent, phase, kind, payload, level}

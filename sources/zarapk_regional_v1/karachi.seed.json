@@ -1,0 +1,17 @@
+{
+  "outlier_region": "Karachi",
+  "stable_regions": ["Lahore", "Islamabad", "Rawalpindi", "Faisalabad", "Multan"],
+  "outlier_decline_pct": -25,
+  "outlier_reach_drop_pct": -40,
+  "stable_noise_pct": 5,
+  "affected_segment": {
+    "category": "women's casual wear",
+    "age_range": [22, 32]
+  },
+  "competitor": {
+    "name": "TrendyPK",
+    "stores_opened": 3,
+    "expansion_month": "2026-04",
+    "pricing_advantage_pct": 30
+  }
+}

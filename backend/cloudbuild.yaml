@@ -1,0 +1,49 @@
+# Cloud Build pipeline: build image, push to Artifact Registry, deploy to Cloud Run.
+# Run from repo root:  gcloud builds submit --config backend/cloudbuild.yaml
+
+substitutions:
+  _REGION: "us-central1"
+  _SERVICE: "pulseai-backend"
+
+steps:
+  # 1. Build the Docker image
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - "build"
+      - "-f"
+      - "backend/Dockerfile"
+      - "-t"
+      - "gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA"
+      - "-t"
+      - "gcr.io/$PROJECT_ID/${_SERVICE}:latest"
+      - "."
+
+  # 2. Push to GCR
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA"]
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/$PROJECT_ID/${_SERVICE}:latest"]
+
+  # 3. Deploy to Cloud Run
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: gcloud
+    args:
+      - "run"
+      - "deploy"
+      - "${_SERVICE}"
+      - "--image=gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA"
+      - "--region=${_REGION}"
+      - "--platform=managed"
+      - "--allow-unauthenticated"
+      - "--memory=1Gi"
+      - "--cpu=1"
+      - "--timeout=300s"
+      - "--max-instances=3"
+      - "--port=8080"
+
+images:
+  - "gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA"
+  - "gcr.io/$PROJECT_ID/${_SERVICE}:latest"
+
+options:
+  logging: CLOUD_LOGGING_ONLY

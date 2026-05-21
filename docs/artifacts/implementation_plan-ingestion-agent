@@ -1,0 +1,101 @@
+# Ingestion Agent Implementation
+
+Build the first agent in the PulseAI pipeline. It reads the 8 mock source files, normalises them into `Signal` records, scores credibility + recency, filters noise (2 throw-in files), and writes `ingestion.json` to `.state/<run_id>/`.
+
+## Proposed Changes
+
+### Schemas
+
+#### [MODIFY] [schemas.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/ingestion/schemas.py)
+
+Define two pydantic v2 models:
+
+- **`Signal`** — one record per source file. Key fields: `src_id`, `source_type` (Literal), `source_path`, `title`, `timestamp`, `ingested_at`, `credibility` ∈ [0,1], `recency` ∈ [0,1], `region`, `metric`, `content` (dict), `discarded`, `discard_reason`.
+- **`IngestionResult`** — aggregation: `run_id`, `seed_region`, `signals` list, `sources_processed`, `sources_discarded`, `discarded_summary`.
+
+---
+
+### Tools (pure Python — no LLM)
+
+#### [MODIFY] [tools.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/ingestion/tools.py)
+
+| Function | Library | Returns |
+|---|---|---|
+| `parse_pdf(path)` | pypdf | `{text, page_count, creation_date}` |
+| `parse_csv(path)` | pandas | `{row_count, columns, head, summary_stats}` |
+| `parse_html(path)` | bs4 | `{title, text, byline, date_str}` |
+| `parse_json(path)` | stdlib json | `{data: ...}` |
+| `parse_jsonl(path)` | stdlib json | `{records: [...], record_count}` |
+| `score_credibility(source_type, metadata)` | — | float ∈ [0,1] using the heuristic table from the spec |
+| `score_recency(timestamp)` | — | float ∈ [0,1], linear decay over 90 days from `REFERENCE_TODAY` |
+| `is_spam(text)` | re | bool — checks for "ACT NOW", "DM me", "limited time", excessive caps, emoji count > 5 |
+
+**Credibility heuristic** (base scores, then adjustments):
+
+| File pattern | Base |
+|---|---|
+| PDF | 0.85 |
+| CSV `pos_ecom` | 0.95 |
+| JSON `analytics` | 0.90 |
+| JSON `marketing` | 0.85 |
+| JSONL `support_tickets` | 0.60 |
+| HTML with recognised byline | 0.70 |
+| HTML without byline | 0.30 |
+| JSON `social_post` with spam | 0.20 |
+
+Adjustments: +0.1 for citations/recognised outlet; −0.3 for spam markers. Clamp to [0, 1].
+
+**Recency**: Uses `REFERENCE_TODAY` (2026-05-17 UTC) from the generator to stay deterministic. Linear decay: age 0 → 1.0, age 90 → 0.0, age >90 → 0.0.
+
+---
+
+### Agent
+
+#### [MODIFY] [agent.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/ingestion/agent.py)
+
+- Define `ingestion_agent = LlmAgent(...)` with model `"gemini-2.5-pro"`, instruction per the spec, and all tools registered.
+- Implement `run_ingestion(run_id, seed_region) -> IngestionResult`:
+  - Pure Python orchestration (no LLM call).
+  - Lists files in `sources/zarapk_regional_v1/<seed_region>/`.
+  - Dispatches to the correct parser by extension (`.pdf` → `parse_pdf`, `.csv` → `parse_csv`, `.html` → `parse_html`, `.json` → `parse_json`, `.jsonl` → `parse_jsonl`).
+  - Builds a `Signal` per file, assigning `src-1` … `src-N` IDs (sorted by filename for determinism).
+  - Scores credibility and recency.
+  - Applies discard rule: `credibility < 0.35` OR `is_spam(text)`.
+  - Writes result to `.state/<run_id>/ingestion.json`.
+
+> [!NOTE]
+> The file-to-parser dispatch uses a fixed mapping by extension. The `title` field is derived from the filename stem. For HTML files, the `<title>` tag is extracted by the parser. The `timestamp` for each source is taken from the parsed metadata where available (PDF creation date, HTML date string, CSV/JSON dates from the data), falling back to file modification time.
+
+---
+
+### Package Init
+
+#### [MODIFY] [\_\_init\_\_.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/ingestion/__init__.py)
+
+Export `Signal`, `IngestionResult`, `run_ingestion`.
+
+---
+
+### Tests
+
+#### [NEW] [test_ingestion_agent.py](file:///c:/Users/baisa/Desktop/pulse-ai/tests/test_ingestion_agent.py)
+
+6 tests:
+
+| Test | Assertion |
+|---|---|
+| `test_happy_path` | 8 signals total, `sources_discarded == 2`, `sources_processed == 8` |
+| `test_news_pricing_blog_discarded` | Blog HTML signal has `discarded=True`, reason mentions "credibility" |
+| `test_social_spam_discarded` | Spam JSON signal has `discarded=True`, reason mentions "spam" |
+| `test_pos_csv_high_credibility` | POS CSV signal `credibility >= 0.9` |
+| `test_news_competitor_high_credibility` | Named-outlet news HTML `credibility >= 0.6` |
+| `test_output_file_written` | `.state/r-test-1/ingestion.json` exists and is valid JSON |
+
+Fixture regenerates mock data for `lahore` seed if missing.
+
+## Verification Plan
+
+### Automated Tests
+```
+pytest tests/test_ingestion_agent.py -v
+```
