@@ -1,0 +1,30 @@
+budget:
+  currency: PKR
+  cap: 800000
+  scope: per_scenario
+
+discount:
+  max_pct: 20
+  margin_floor_pct: 18
+
+rate_limits:
+  notification_api_per_hour: 5000
+  push_notification_per_user_per_hour: 5
+  campaign_launch_per_region_per_week: 1
+
+notification_window:
+  start: "09:00"
+  end: "21:00"
+  timezone: "Asia/Karachi"
+
+privacy:
+  respect_optouts: true
+
+failure_injection:
+  notification_api_failure_rate: 1.0  # always fail first attempt in demo
+  enable_retry: true
+  enable_fallback: true
+
+monitor:
+  roas_threshold: 1.5
+  monitor_window_days: 7

@@ -1,0 +1,12 @@
+- Every agent lives in agents/<agent_name>/
+- Each agent package has: agent.py, tools.py, schemas.py, __init__.py
+- All agents use google.adk.agents.LlmAgent with Gemini 3 Pro
+- All inputs/outputs are pydantic v2 BaseModel
+- All tools are decorated with @adk_tool and return JSON-serializable dicts
+- All confidence scores are floats in [0.0, 1.0]
+- All timestamps are ISO 8601 UTC strings
+- All agents log via structlog with fields: ts, agent, phase, kind, payload, level
+- Tests live in tests/test_<agent>.py — every agent needs a happy-path test and a failure test
+- Math (percentages, comparisons, clustering) must be done in Python, NOT inside LLM prompts
+- LLMs orchestrate and explain; Python computes
+- The five agents form a pipeline: Ingestion -> Insight -> ConflictResolver -> ActionPlanner -> Executor, with Monitor running after execution

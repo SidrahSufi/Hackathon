@@ -1,0 +1,98 @@
+# ConflictResolver Agent Implementation
+
+Build the third agent in the PulseAI pipeline. It reads `ingestion.json` and `insights.json`, finds source pairs that disagree on the same metric, resolves them or flags for human review, and writes `contradictions.json`.
+
+**Critical rule**: Never force a resolution when sources are equal. If a conflict involves a discarded source, flag for human review.
+
+## Signal Scores (from actual ingestion output)
+
+| src_id | File | Cred | Recency | Discarded |
+|---|---|---|---|---|
+| src-1 | analytics_by_region.json | 0.90 | 1.0 | No |
+| src-2 | marketing_spend.json | 0.85 | 1.0 | No |
+| src-3 | monthly_regional_sales.pdf | 0.85 | 0.667 | No |
+| src-4 | news_competitor_expansion.html | 0.80 | 0.722 | No |
+| src-5 | news_pricing_blog.html | 0.30 | 1.0 | **Yes** |
+| src-6 | pos_ecom_last_30d.csv | 0.95 | 1.0 | No |
+| src-7 | social_post_spam.json | 0.00 | 1.0 | **Yes** |
+| src-8 | support_tickets.jsonl | 0.60 | 1.0 | No |
+
+## Three Pairs to Detect
+
+| Pair | Signal A | Signal B | Metric | Classification | Expected outcome |
+|---|---|---|---|---|---|
+| **C1** | src-3 (PDF, +5% YoY) | src-6 (CSV, ~-25%) | `growth_pct_lahore` | direct_conflict | **resolved** → CSV wins via recency (Δ=0.333≥0.3) |
+| **—** | src-2 (marketing spend) | src-1 (analytics reach) | `campaign_health_lahore` | different_angle | **not_a_conflict** (both facts are true) |
+| **C3** | src-4 (news, 30% cheaper) | src-5 (blog, "roughly similar") | `competitor_pricing_claim` | direct_conflict | **needs_human_review** (involves discarded source) |
+
+> [!IMPORTANT]
+> `find_metric_pairs` operates on **all** signals (including discarded) so it can detect the pricing contradiction. The `decide()` function adds a pre-rule: if either signal is discarded → `needs_human_review` with reason `"involves_discarded_source"`. This ensures we never silently swallow a contradiction just because one source was filtered out.
+
+## Proposed Changes
+
+### Schemas
+
+#### [NEW] [schemas.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/conflict/schemas.py)
+
+`Contradiction` and `ConflictResult` pydantic v2 models as specified.
+
+---
+
+### Detector (pure Python pair detection)
+
+#### [NEW] [detector.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/conflict/detector.py)
+
+- `find_metric_pairs(signals)` — rule-based pair detection for the 3 known patterns. Matches by filename substrings and source types.
+- `classify_pair(metric, sig_a, sig_b)` — returns `"direct_conflict"`, `"different_angle"`, or `"unrelated"`.
+
+---
+
+### Resolver (pure Python decision rules)
+
+#### [NEW] [resolver.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/conflict/resolver.py)
+
+- `score_source_pair(sig_a, sig_b)` — returns `{recency_delta, credibility_delta}`.
+- `decide(sig_a, sig_b)` — decision rules in order:
+  1. If either signal is discarded → `needs_human_review`, reason `"involves_discarded_source"`
+  2. If `abs(recency_delta) >= 0.3` → pick more recent, reason `"recency"`
+  3. If `abs(credibility_delta) >= 0.2` → pick more credible, reason `"credibility"`
+  4. Else → `needs_human_review`, reason `"equal_sources"`
+
+---
+
+### Tools
+
+#### [NEW] [tools.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/conflict/tools.py)
+
+Wrappers + `explain_resolution()` template-based rationale builder.
+
+---
+
+### Agent
+
+#### [NEW] [agent.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/conflict/agent.py)
+
+`LlmAgent` definition + `run_conflict(run_id)` procedural orchestrator.
+
+---
+
+### Package Init
+
+#### [MODIFY] [\_\_init\_\_.py](file:///c:/Users/baisa/Desktop/pulse-ai/agents/conflict/__init__.py)
+
+Export `Contradiction`, `ConflictResult`, `run_conflict`.
+
+---
+
+### Tests
+
+#### [NEW] [test_conflict_agent.py](file:///c:/Users/baisa/Desktop/pulse-ai/tests/test_conflict_agent.py)
+
+5 tests as specified: C1 resolved, campaign_health not in contradictions, C3 needs_human_review, no-invented-decisions, total counts (2 contradictions + 1 not_a_conflict).
+
+## Verification Plan
+
+### Automated Tests
+```
+pytest tests/test_conflict_agent.py -v
+```

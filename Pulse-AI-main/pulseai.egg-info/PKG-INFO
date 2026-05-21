@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: pulseai
+Version: 0.1.0
+Summary: Autonomous Content-to-Action Agent for multi-region retail operations.
+Requires-Python: >=3.11
+Requires-Dist: google-adk
+Requires-Dist: google-genai
+Requires-Dist: pandas>=2.2
+Requires-Dist: pypdf>=4.0
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: httpx>=0.27
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: structlog>=24.1
+Requires-Dist: python-dateutil>=2.9
+Requires-Dist: reportlab>=4.0
+Requires-Dist: numpy>=1.26
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
