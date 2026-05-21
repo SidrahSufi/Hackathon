@@ -554,6 +554,9 @@ The entire project was developed inside **Google Antigravity** — see `docs/ant
 | `04-ingestion-recovery.png` | Agent recovers from a test failure |
 | `05-insight-recovery.png` | Same, on the Insight Agent |
 | `06-conflict-tests-passing.png` | Final ConflictResolver tests green |
+| `07-planner-agent-execution.png` | Creation of Planner Agent |
+| `08-executor-rollback.png` | Creation of Executor Agent |
+| `09-monitor-agent-lifecycle.png` | Creation of Monitor Agent |
 | `10-action-plan-screen.png` | S5 Action Plan screen — initial build |
 | `11-action-screen-completion.png` | S5 Action Plan — Antigravity marks complete |
 | `12-action-screen-bottom-nav-fix.png` | S5 — bottom nav bug fixed by Antigravity |
