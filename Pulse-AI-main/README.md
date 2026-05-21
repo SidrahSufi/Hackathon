@@ -554,6 +554,14 @@ The entire project was developed inside **Google Antigravity** — see `docs/ant
 | `04-ingestion-recovery.png` | Agent recovers from a test failure |
 | `05-insight-recovery.png` | Same, on the Insight Agent |
 | `06-conflict-tests-passing.png` | Final ConflictResolver tests green |
+| `10-action-plan-screen.png` | S5 Action Plan screen — initial build |
+| `11-action-screen-completion.png` | S5 Action Plan — Antigravity marks complete |
+| `12-action-screen-bottom-nav-fix.png` | S5 — bottom nav bug fixed by Antigravity |
+| `13-live-trace-screen.png` | S6 Live Trace — initial build |
+| `14-live-trace-fix.png` | S6 — unused import lint fix |
+| `15-action-screen-nav-fix.png` | S5 — Home tab routing bug fixed |
+| `16-live-trace-nav-fix.png` | S6 — navigation bug fixed by Antigravity |
+| `17-current-problem-fix.png` | S6 — build compilation failures resolved |
 
 Plus implementation plan markdown files in `docs/artifacts/`.
 
